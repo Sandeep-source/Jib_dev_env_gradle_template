@@ -5,7 +5,7 @@ package jib_dev_env_gradle_template;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return "Jib Env: It worked";
     }
 
     public static void main(String[] args) {

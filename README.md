@@ -46,6 +46,8 @@ Spin up an java development environment Codespace with gradle and Jib to build f
  * In the next prompt check the gradle options and CLick `Ok` two times.
  
    ![image](https://user-images.githubusercontent.com/61611561/216235308-4d6738fc-6a9a-4b2e-b799-91230750a471.png)
+   
+ * Now you have a enviroment ready with the gradle and java installed with jib-gradle-plugin to build containerized image
 
 
 

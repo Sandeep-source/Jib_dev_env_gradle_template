@@ -9,12 +9,13 @@
 			"version": "none",
 			"installMaven": "false",
 			"installGradle": "true"
-		}
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
+	 "postCreateCommand": "./gradlew build",
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
